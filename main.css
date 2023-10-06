@@ -1,0 +1,1090 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-image: url(./imgaes/background\ -\ Copy.jpg);
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+  }
+.box-search{
+  position: absolute;
+  
+}
+.background-search {
+  position: relative;
+ max-width: 100%;
+ height: auto;
+ padding-left:463px;
+ padding-right: 484px;
+ padding-top: 63px;
+ padding-bottom: 828px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-position: center; 
+}
+ .Text-Welcome {
+  width: 283px;
+  height: 27px;
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top: 84px;
+left: 506px;
+background-position: center; 
+ } 
+.search-bar{
+width: 100%;
+max-width: 700px;
+border-radius: 100px;
+background: rgba(39, 39, 39, 0.50);
+box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.25) inset;
+display: flex;
+width: 451px;
+height: 32px;
+align-items: center;
+border-radius: 80px;
+padding-left: 45px; 
+position: absolute;
+top: 82.5px;
+left: 782px;
+background-position: center; 
+}
+.search-bar input{
+background: transparent;
+border: 0;
+outline: none;
+font-size: 15px;
+color: white
+background-position: center; 
+}
+::placeholder{
+color: whitesmoke
+
+}
+.iconsearch{
+position: absolute;
+top: 90px;
+left: 794px;
+}
+.datetime{
+  color: #FFF;
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  width: 165px;
+  height: 38px;
+  position: absolute;
+  top: 75px;
+  left: 1238px;
+}
+.time {
+  font-size: 20px;
+  font-weight: 700;
+}
+.date {
+  font-weight: 400;
+}
+.background-content{
+  position: absolute;
+  top: 182px;
+  left: 301px;
+
+}
+.overview{
+  position: absolute;
+  top: 202px;
+  left: 360px;
+  width: 148px;
+  height: 27px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bgpowerusage{
+  position: absolute;
+  top: 253px;
+  left: 350px;
+}
+.bgpowerusage span{
+  width: 164px;
+  height: 27px;
+  color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top: 15px;
+left: 15px;
+}
+.mode span {
+  position: absolute;
+top: 339px;
+left: 363px;
+color: #FFF;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.buttoneco button{
+  border: none;
+  cursor: pointer;
+  
+}
+.eco img {
+  border-radius: 5px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  top:369px;
+  left: 360px;
+  background: rgba(255, 255, 255, 0.185)
+  
+}
+.buttonstandard button{
+  border: none;
+  cursor: pointer;
+}
+.standard img{
+  border-radius: 5px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  top:369px;
+  left: 410px;
+  background: rgba(255, 255, 255, 0.185)
+}
+.thongso {
+  position: absolute;
+  top:365px;
+  left: 647px;
+}
+.thongso h2{
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.thongso h3{
+  color: #FFF;
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: right;
+}
+.dothi img {
+  width: 247px;
+  height: 106px;
+  position: absolute;
+  top:273px;
+  left: 480px;
+}
+.temperature-bg img{
+  position: absolute;
+  top: 450px;
+  left: 350px;
+}
+.temperature-bg span{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 463px;
+  left: 363px;
+}
+.modetem span{
+  position: absolute;
+  top: 534px;
+  left: 363px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.buttoncool{
+  width: 38px;
+  height: 38px;
+}
+.buttoncool button{
+  position: absolute;
+  top:561px;
+  left: 361px;
+  width: 38px;
+  height: 38px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.185)
+
+
+  
+}
+.cool img{
+  width: 20px;
+  height: 19px;
+  position: absolute;
+  top:5px;
+  left: 8px;
+}
+.buttoncool h4{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 7px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top:586px;
+  left: 371px;
+}
+.buttonwarm{
+  width: 38px;
+  height: 38px;
+}
+.buttonwarm button{
+  position: absolute;
+  top:561px;
+  left: 411px;
+  width: 38px;
+  height: 38px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.185)
+}
+.warm img{
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top:4px;
+  left: 10px;
+}
+.buttonwarm h4{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 7px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top:586px;
+  left: 421px;
+}
+.buttonhot{
+  width: 38px;
+  height: 38px;
+}
+.buttonhot button{
+  position: absolute;
+  top:561px;
+  left: 461px;
+  width: 38px;
+  height: 38px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.185)
+}
+.hot img{
+  width: 12px;
+  height: 18px;
+  position: absolute;
+  top:3px;
+  left: 13px;
+}
+.buttonhot h4{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 7px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top:586px;
+  left: 474px;
+}
+.iconclocktem img{
+  background: transparent;
+  position: absolute;
+  top:505px;
+  left: 596px;
+}
+.humidity {
+  width: 182px;
+  height: 83px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.20);
+  position: absolute;
+  top:646px;
+  left: 347px;
+}
+.humidity span{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top:10px;
+  left: 14px;
+
+}
+.humidity h2{
+  color: #FFF;
+text-align: right;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top:42px;
+left: 14px;
+}
+.wheather{
+  width: 182px;
+  height: 83px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.20);
+  position: absolute;
+  top:646px;
+  left: 545px;
+}
+.wheather span{
+  width: 125px;
+height: 29px;
+  color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+top:54px;
+left: 29px;
+}
+.wheather img{
+  width: 45px;
+  height: 44px;
+  position: absolute;
+  top:10px;
+  left: 29px;
+}
+.addwidget button{
+  width: 377px;
+height: 83px;
+border-radius: 15px;
+background: rgba(0, 0, 0, 0.30);
+position: absolute;
+top:756px;
+left: 350px;
+border: none;
+cursor: pointer;
+}
+.khungaddwidget {
+  position: absolute;
+top:8px;
+left: 8px;
+}
+.add-widget span{
+  width: 125px;
+height: 29px;
+color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+top:34px;
+left: 143px;
+}
+.icondaucong img{
+  width: 25px;
+height: 25px;
+border-radius: 25px;
+background: rgba(255, 255, 255, 0.20);
+position: absolute;
+top:30px;
+left: 125px;
+}
+.manageroom h2{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+top:202px;
+left: 782px;
+}
+.livingroom {
+  width: 377px;
+height: 126px;
+background: rgba(255, 255, 255, 0.20);
+border-radius: 20px;
+position: absolute;
+top:253px;
+left: 782px;
+}
+.livingroom img{
+  width: 100px;
+height: 100px;
+border-radius: 10px;
+position: absolute;
+top:13px;
+left: 15px;
+}
+.livingroom h3{
+  color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top:13px;
+left: 126px;
+}
+.livingroom h4{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+top:47px;
+left: 126px;
+}
+.livingroom h5{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+top:97px;
+left: 149px;
+}
+.iconusage img{
+  width: 15px;
+height: 15px;
+border-radius: 15px;
+background: rgba(255, 255, 255, 0.20);
+position: absolute;
+top:95px;
+left: 127px;
+}
+.livingroom button{
+width: 25px;
+height: 25px;
+border-radius: 25px;
+background: rgba(255, 255, 255, 0.20);
+position: absolute;
+top:52px;
+left: 324px;
+border: none;
+cursor: pointer;
+}
+.muiten img{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top:0px;
+left: 0px;
+  border: none;
+  cursor: pointer;
+}
+.bedroom {
+  width: 377px;
+height: 126px;
+background: rgba(255, 255, 255, 0.20);
+border-radius: 20px;
+position: absolute;
+top:409px;
+left: 782px;
+}
+.bedroom img{
+  width: 100px;
+height: 100px;
+border-radius: 10px;
+position: absolute;
+top:13px;
+left: 15px;
+}
+.bedroom h3{
+  color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top:13px;
+left: 126px;
+}
+.bedroom h4{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+top:47px;
+left: 126px;
+}
+.bedroom h5{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+top:97px;
+left: 149px;
+}
+.iconusage1 img{
+  width: 15px;
+height: 15px;
+border-radius: 15px;
+background: rgba(255, 255, 255, 0.20);
+position: absolute;
+top:95px;
+left: 127px;
+}
+.bedroom button{
+width: 25px;
+height: 25px;
+border-radius: 25px;
+background: rgba(255, 255, 255, 0.20);
+position: absolute;
+top:52px;
+left: 324px;
+border: none;
+cursor: pointer;
+}
+.muiten1 img{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top:0px;
+left: 0px;
+  border: none;
+  cursor: pointer;
+}
+.kitchen {
+  width: 377px;
+height: 126px;
+background: rgba(255, 255, 255, 0.20);
+border-radius: 20px;
+position: absolute;
+top:562px;
+left: 782px;
+}
+.kitchen img{
+  width: 100px;
+height: 100px;
+border-radius: 10px;
+position: absolute;
+top:13px;
+left: 15px;
+}
+.kitchen h3{
+  color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top:13px;
+left: 126px;
+}
+.kitchen h4{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+top:47px;
+left: 126px;
+}
+.kitchen h5{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+top:97px;
+left: 149px;
+}
+.iconusage2 img{
+  width: 15px;
+height: 15px;
+border-radius: 15px;
+background: rgba(255, 255, 255, 0.20);
+position: absolute;
+top:95px;
+left: 127px;
+}
+.kitchen button{
+width: 25px;
+height: 25px;
+border-radius: 25px;
+background: rgba(255, 255, 255, 0.20);
+position: absolute;
+top:52px;
+left: 324px;
+border: none;
+cursor: pointer;
+}
+.muiten2 img{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top:0px;
+left: 0px;
+  border: none;
+  cursor: pointer;
+}
+.bathroom {
+  width: 377px;
+height: 126px;
+background: rgba(255, 255, 255, 0.20);
+border-radius: 20px;
+position: absolute;
+top:721px;
+left: 782px;
+}
+.bathroom img{
+  width: 100px;
+height: 100px;
+border-radius: 10px;
+position: absolute;
+top:13px;
+left: 15px;
+}
+.bathroom h3{
+  color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top:13px;
+left: 126px;
+}
+.bathroom h4{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+top:47px;
+left: 126px;
+}
+.bathroom h5{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+top:97px;
+left: 149px;
+}
+.iconusage3 img{
+  width: 15px;
+height: 15px;
+border-radius: 15px;
+background: rgba(255, 255, 255, 0.20);
+position: absolute;
+top:95px;
+left: 127px;
+}
+.bathroom button{
+width: 25px;
+height: 25px;
+border-radius: 25px;
+background: rgba(255, 255, 255, 0.20);
+position: absolute;
+top:52px;
+left: 324px;
+border: none;
+cursor: pointer;
+}
+.muiten3 img{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top:0px;
+left: 0px;
+  border: none;
+  cursor: pointer;
+}
+.roomcamera{
+  width: 378px;
+height: 685px;
+border-radius: 0px 30px 30px 0px;
+background: rgba(0, 0, 0, 0.30);
+position: absolute;
+top:183px;
+left: 1218px;
+
+}
+.roomcamera h2{
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top:19px;
+left: 19px;
+}
+.cameraliving img{
+  position: absolute;
+top:70px;
+left: 19px;
+}
+.tittlelivingroom {
+  display: flex;
+width: 107px;
+height: 22px;
+flex-direction: column;
+justify-content: center;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+top:81px;
+left: 29px; 
+background: rgba(0, 0, 0, 0.45);
+border-radius: 3px;
+
+}
+.iconlive img{
+  width: 42px;
+height: 15px;
+background: rgba(0, 0, 0, 0.45);
+position: absolute;
+top:81px;
+left: 306px; 
+border-radius: 3px;
+}
+.member1 {
+  width: 340px;
+height: 60px;
+background: rgba(255, 255, 255, 0.20);
+border-radius: 40px;
+position: absolute;
+top:521px;
+left: 1233px; 
+}
+.members span{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top:473px;
+  left: 1236px; 
+}
+.member1 img{
+  width: 47px;
+height: 47px;
+border-radius: 30px;
+position: absolute;
+top:7px;
+left: 10px;
+}
+.member1 h3{
+  color: #FFF;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top:16px;
+left: 71px;
+}
+.online img{
+  width: 15px;
+height: 15px;
+position: absolute;
+top:37px;
+left: 71px;
+}
+.online h4{
+  color: #FFF;
+font-family: Inter;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+top:38px;
+left: 87px;
+}
+.member1 button{
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.20);
+  position: absolute;
+  top:20px;
+  left: 287px;
+}
+.iconother1 img{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top:0px;
+  left: 0px;
+}
+.member2 {
+  width: 340px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.20);
+  border-radius: 40px;
+  position: absolute;
+  top:605px;
+  left: 1233px; 
+}
+.member2 img{
+  width: 47px;
+height: 47px;
+border-radius: 30px;
+position: absolute;
+top:7px;
+left: 10px;
+}
+.member2 h3{
+  color: #FFF;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top:16px;
+left: 71px;
+}
+.online2 img{
+  width: 15px;
+height: 15px;
+position: absolute;
+top:37px;
+left: 71px;
+}
+.online2 h4{
+  color: #FFF;
+font-family: Inter;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+top:38px;
+left: 87px;
+}
+.member2 button{
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.20);
+  position: absolute;
+  top:20px;
+  left: 287px;
+}
+.iconother2 img{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top:0px;
+  left: 0px;
+}
+.member3 {
+  width: 340px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.20);
+  border-radius: 40px;
+  position: absolute;
+  top:688px;
+  left: 1233px; 
+}
+.member3 img{
+  width: 47px;
+height: 47px;
+border-radius: 30px;
+position: absolute;
+top:7px;
+left: 10px;
+}
+.member3 h3{
+  color: #FFF;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top:16px;
+left: 71px;
+}
+.online3 img{
+  width: 15px;
+height: 15px;
+position: absolute;
+top:37px;
+left: 71px;
+}
+.online3 h4{
+  color: #FFF;
+font-family: Inter;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+top:38px;
+left: 87px;
+}
+.member3 button{
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.20);
+  position: absolute;
+  top:20px;
+  left: 287px;
+}
+.iconother3 img{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top:0px;
+  left: 0px;
+}
+.member4 {
+  width: 340px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.20);
+  border-radius: 40px;
+  position: absolute;
+  top:772px;
+  left: 1233px; 
+}
+.member4 img{
+  width: 47px;
+height: 47px;
+border-radius: 30px;
+position: absolute;
+top:7px;
+left: 10px;
+}
+.member4 h3{
+  color: #FFF;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top:16px;
+left: 71px;
+}
+.online4 img{
+  width: 15px;
+height: 15px;
+position: absolute;
+top:37px;
+left: 71px;
+}
+.online4 h4{
+  color: #FFF;
+font-family: Inter;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+top:38px;
+left: 87px;
+}
+.member4 button{
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.20);
+  position: absolute;
+  top:20px;
+  left: 287px;
+}
+.iconother4 img{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top:0px;
+  left: 0px;
+}
